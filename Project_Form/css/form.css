@@ -1,0 +1,45 @@
+a:hover{
+    background-color: rgb(175, 230, 121);
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+.wrapper{
+    width:60% ;
+    margin:0 auto;
+    border: 3px solid blue;
+}
+
+label{
+    font-size: 25px;
+}
+
+
+.first_name, .last_name, .email, .password{
+    width: 94%;
+    height: 25px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.message{
+    font-size: 15px;
+
+}
+
+button{
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid green;
+    border-radius: 4px;
+    font-size: medium;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
